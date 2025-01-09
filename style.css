@@ -1,0 +1,53 @@
+div {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+div.ex1 {
+    background-color: green;
+    border-radius: 20px;
+}
+
+div.ex2 {
+    background-color: white;
+    border: 3px solid green;
+    border-radius: 20px;
+}
+
+div.ex3 {
+    background-image: url(images/wallpaper.avif);
+    border-radius: 20px;
+}
+
+div.ex4 {
+    background-color: green;
+    border-radius: 10px 30px 20px 3px;
+}
+
+div.ex5 {
+    background-color: green;
+    border-radius: 10px 30px 10px;
+}
+
+div.ex6 {
+    background-color: green;
+    border-radius: 10px 30px;
+}
+
+div.ex7 {
+    background-color: green;
+    border-radius: 10px / 30px;
+}
+
+div.ex8 {
+    background-color: green;
+    border-radius: 50px / 10px;
+}
+
+div.ex9 {
+    background-color: green;
+    border-radius: 50%;
+}
